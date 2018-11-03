@@ -13,10 +13,12 @@ import 'mint-ui/lib/style.css'
 
 import Home from './components/Home.vue';
 import News from './components/News.vue';
+import List from './components/List.vue';
 
 const routes=[
 	{path:'/home',component:Home},
 	{path:'/news', component: News },
+	{path:'/list', component: List },
 	{ path: '*', redirect: '/home' }
 ];
 
