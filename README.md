@@ -1,18 +1,12 @@
 # vue02
 
-> A Vue.js project
+// 安装
+npm install mint-ui -save/cnpm install mint-ui -save
 
-## Build Setup
+// 引入全部组件
+import Mint from 'mint-ui';
+Vue.use(Mint);
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
+import 'mint-ui/lib/style.css'
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
